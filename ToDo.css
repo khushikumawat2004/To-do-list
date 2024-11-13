@@ -1,0 +1,50 @@
+body{
+    background:linear-gradient(135deg, #153677 , #4e085f);
+    background-image:url(todo.jpg) ;
+    
+}
+.container{
+    width: 400px;
+    padding: 50px;
+    text-align: center;
+    background: linear-gradient(135deg, #96aad4 , #c735ec);
+    margin-left: 33%;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-image:url(todo.png);
+}
+
+.container h1 {
+    color: white;
+    background-color: rgb(118, 42, 42);
+}
+
+input{
+    width: 270px;
+    padding:10px;
+    border: 2px solid rgb(189, 98, 6);
+    outline: none;
+}
+button{
+    width: 60px;
+    height: 41px;
+    background-color: rgb(188, 71, 25);
+    color: white;
+    border: none; 
+    outline: none;
+    border-radius: 20px;
+    font-size: 19px;
+}
+.text ul {
+    position: relative;
+    background-color: rgb(0, 0, 0);
+    color:white;
+    font-size: 19px;
+    padding: 7px;
+    text-align: left;
+}
+.text ul i {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
